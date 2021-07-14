@@ -28,7 +28,7 @@ header {
     font-size: 16px;
     color: #fff;
     padding-left: 20px;
-    transition: font-size 1s ease-in;
+    transition: font-size 1s ease-in-out;
 }
 .menu a:hover{
     color: red;
@@ -95,5 +95,204 @@ background-color: green;
 .player-section {
     margin-top: 27px;
     margin-left:160px;
+}
+
+.footballer-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin: 52px 210px 0px 180px;
+}
+
+.container {
+    width: 330px;
+    height: 474px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player-deatils {
+    padding: 15px;
+}
+
+.player-deatils img {
+    width: 100%;
+}
+
+
+
+
+.match-page {
+    width: 50%;
+}
+
+#match-title {
+    font-size: 48px;
+    color: #0A0826;
+}
+
+.match-image img {
+    width: 567px;
+    height: 427px;
+}
+.match-image{
+    margin-top:250px;
+    margin-left: 100px;
+}
+
+.match-deatils {
+    width: 469px;
+    height: 309px;
+    margin: 224px 0px 0px 180px;
+}
+
+.highlight{
+    margin-left:210px;
+}
+
+#footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin-top: 158px;
+}
+
+#footer-logo img {
+    height: 110px;
+    margin: 20px 0px;
+}
+
+#footer-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-icon i {
+    height: 32px;
+    width: 32px;
+    margin: 0px 14px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* media */
+@media only screen and (min-width: 250px) and (max-width:887px){
+    body {
+        margin: 0%;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .menu {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0%;
+        margin-bottom: 0%;
+        padding-bottom: 0px;
+    }
+    .menu a {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+        width: 686px;
+        height: 50px;
+    }
+    .menu a:hover {
+        background-color: rgb(154, 201, 107);
+    }
+    .top-menue {
+        flex-direction: column;
+        justify-content: space-around;
+        background-color:cornflowerblue;
+        width: 100%;
+    }
+    .top-menue:hover {
+        background-color: rgb(141, 199, 194);
+        color: #000;
+    }
+    .login-icon {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 686px;
+        height: 50px;
+        margin-left: 100px;
+        padding: 0%;
+    }
+    .header-title {
+        font-size: 36px;
+    }
+    /* header section */
+    .half-width {
+        display:flex;
+        flex-direction: column;
+    }
+    .page-header {
+        margin: 12px 0px 0px 40px;
+    }
+    .player-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+    }
+    .footballer-info {
+        display: flex;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    main{
+        margin:0%;
+    }
+    
+.match-image{
+    margin-top:0px;
+    margin-left:0px;
+}
+.highlight{
+    margin-left:10px;
+}
+    .highlight-info{
+        display: flex;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        /* margin-left:600px; */
+        padding: 10px 100px 10px 20px;
+    }
+    .match-page {
+        width:100%;
+    }
+    #match-title {
+        font-size: 30px;
+        color: #0A0826;
+    }
+    .match-image img {
+        margin:0px;
+        
+        width: 567px;
+        height: 427px;
+       
+    }
+    .match-deatils {
+        font-size:16px;
+        margin: 8px 0px;
+    }
 }
 
