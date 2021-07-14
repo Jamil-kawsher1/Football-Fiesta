@@ -70,6 +70,10 @@ header {
     border: none;
     color: white;
 }
+.arrow-btn:hover{
+background-color: green;
+
+}
 
 .half-width {
     display: flex;
