@@ -1,0 +1,95 @@
+/* body part style */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+header {
+    background: #2D25A0;
+ 
+}
+
+.top-menue {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu, .login-menu {
+    margin-top: 52px;
+}
+
+.menu-deatil {
+    margin-left: 156px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    padding-left: 20px;
+    transition: font-size 1s ease-in;
+}
+.menu a:hover{
+    color: red;
+    font-size: 30px;
+}
+
+.login-menu a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+.login-menu {
+    padding-right: 122px;
+}
+
+.login-icon {
+    background: #E02C6D;
+    width: 123px;
+    height: 44px;
+    padding: 10px 24px;
+}
+
+.symbel {
+    padding: 0px 15px 0px 0px;
+}
+
+.header-title {
+    font-size: 64px;
+    color: white;
+    font-weight: bold;
+}
+
+.arrow-btn {
+    background: #E02C6D;
+    width: 168px;
+    height: 44px;
+    padding: 10px 24px;
+    border: none;
+    color: white;
+}
+
+.half-width {
+    display: flex;
+}
+
+.page-header {
+    width: 50%;
+    margin: 121px 0px 0px 156px;
+}
+
+.page-header img {
+    width: 100%;
+}
+
+.banner-image {
+    margin-right: 141px;
+}
+
+.player-section {
+    margin-top: 27px;
+    margin-left:160px;
+}
+
